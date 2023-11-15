@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-description of square
+description of square.
 """
 
 
 class Square:
-    """This is description of square"""
+    """This is description of square."""
 
 
     def __init__(self, size):
