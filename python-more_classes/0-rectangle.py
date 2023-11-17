@@ -1,2 +1,7 @@
 #!/usr/bin/python3
-"""comment"""
+"""Rectangle class"""
+
+
+class Rectangle:
+    """more about rectangle class"""
+    pass
