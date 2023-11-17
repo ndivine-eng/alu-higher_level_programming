@@ -1,21 +1,21 @@
 #!/usr/bin/python3
-"""this will define and run a class square."""
+"""Square class defination"""
 
 
 class Square:
-    """Represents a square."""
+    """Square class body"""
 
     def __init__(self, size=0):
-        """Initialize a new square.
+        """Square contructor.
         Args:
-        size (int): The size of the new square.
+            size (int): The size of the new square.
         """
         self.size = size
 
     @property
     def size(self):
-        """"define the property name in the class portal"""
-        return (self.__size)
+        """return new size of the square."""
+        return self.__size
 
     @size.setter
     def size(self, value):
@@ -25,9 +25,10 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-        def area(self):
-            """Return the current area of cthe square."""
-            return (self.__size * self.__size)
+    def area(self):
+        """Return area of the square."""
+        return self.__size * self.__size
+
 
 
 
