@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """
+<<<<<<< HEAD
 reads stdin line by line and computes metrics
+=======
+compute matrix
+>>>>>>> 4d0e628a9ec08bbd72747319029829c27a4fe921
 """
 import sys
 
