@@ -36,6 +36,3 @@ class Square:
             print("")
         if self.__size == 0:
             print("")
-
-
-
