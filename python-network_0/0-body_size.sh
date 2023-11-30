@@ -1,3 +1,3 @@
 #!/bin/bash
-# Curl sends POST req to URL, display response body
-curl -s -X POST -d "email=test@gmail.com&subject=I will always be here for PLD" "$1"
+# takes URL and displays the size of the response body
+curl -sI "$1" | grep -i Content-Length | cut -d " " -f2
