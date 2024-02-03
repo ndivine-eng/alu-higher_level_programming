@@ -1,0 +1,1 @@
+"Js is art and logic" and you can be expert from scratch
