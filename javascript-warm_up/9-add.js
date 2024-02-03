@@ -8,3 +8,4 @@ const add = (a, b) => {
   const second = process.argv[3];
   
   add(first, second);
+  
