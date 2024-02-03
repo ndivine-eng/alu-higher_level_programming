@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const add = (a, b) => {
-    const res = num(a) + num(b);
+    const res = Number(a) + Number(b);
     console.log(res);
   };
   
@@ -8,4 +8,3 @@ const add = (a, b) => {
   const second = process.argv[3];
   
   add(first, second);
-  
