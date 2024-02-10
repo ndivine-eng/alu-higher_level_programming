@@ -1,1 +1,3 @@
-This is js contains API .fetch
+Author is Divine Nubuhoro 
+
+I have done this project using js languange
