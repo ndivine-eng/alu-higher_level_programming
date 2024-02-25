@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Text with Links</title>
+    <style>
+        body {
+            text-align: center; 
+        }
+
+        nav {
+            display: flex; 
+            justify-content: center;
+        }
+
+        nav a {
+            margin: 0 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Paragraph of text goes here.</p>
+    <nav>
+        <a href="https://github.com/">my github</a>
+        <a href="https://www.youtube.com/">youtube</a>
+        <a href="https://alueducation.instructure.com/courses/1225/quizzes/3057/take/questions/24722">canvas</a>
+    </nav>
+</body>
+</html> -->
+
+function removeVowels(str) {
+    
+    var regex = /[aeiou]/gi; 
+   
+    var result = str.replace(regex, '');
+    return result;
+}
+var inputString = "Hello World!";
+var resultString = removeVowels(inputString);
+console.log(resultString);
+
